@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "user_admin_1",
+    "username": "admin",
+    "password": "$2a$10$0lD0w..7V.X6ILPno35Z0OikQF6B2ETHbgP6XYl4moF4EgYz.P0Iq",
+    "role": "admin",
+    "createdAt": "2026-09-29T06:50:25.410Z"
+  },
+  {
+    "_id": "user_viewer_1",
+    "username": "viewer",
+    "password": "$2a$10$RJdLWHnE7UeH.im5VC/AcOWZvVR91wDAq4q68Z49ITGOJmUrj3drO",
+    "role": "viewer",
+    "createdAt": "2026-09-29T06:50:25.411Z"
+  }
+]

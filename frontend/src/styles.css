@@ -1,0 +1,243 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #172033;
+  background: #f4f7fb;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+.page {
+  min-height: 100vh;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: linear-gradient(135deg, #eef2ff, #f8fafc);
+}
+
+.card {
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 15px 45px rgba(15, 23, 42, 0.12);
+}
+
+.login-card {
+  width: 400px;
+  padding: 38px;
+}
+
+.icon {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.login-card h1 {
+  margin: 0;
+  font-size: 30px;
+}
+
+.subtitle {
+  color: #64748b;
+  margin-bottom: 25px;
+}
+
+.login-card label {
+  display: block;
+  font-weight: 600;
+  margin: 12px 0 7px;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  outline: none;
+}
+
+.btn {
+  width: 100%;
+  padding: 13px;
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  margin-top: 18px;
+}
+
+.primary {
+  background: #4f46e5;
+}
+
+.demo-box {
+  margin-top: 22px;
+  padding: 14px;
+  border-radius: 10px;
+  background: #f1f5f9;
+  color: #475569;
+  line-height: 1.7;
+  font-size: 14px;
+}
+
+.error {
+  margin-top: 15px;
+  padding: 10px;
+  background: #fee2e2;
+  color: #b91c1c;
+  border-radius: 8px;
+}
+
+.navbar {
+  min-height: 76px;
+  background: white;
+  padding: 14px 6%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 12px rgba(15, 23, 42, .06);
+}
+
+.navbar h2 {
+  margin: 0 0 5px;
+}
+
+.role-badge {
+  display: inline-block;
+  padding: 4px 9px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.role-badge.admin {
+  background: #e0e7ff;
+  color: #4338ca;
+}
+
+.role-badge.viewer {
+  background: #ccfbf1;
+  color: #0f766e;
+}
+
+.logout-btn,
+.delete-btn {
+  border: 0;
+  color: white;
+  padding: 9px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.logout-btn {
+  background: #ef4444;
+}
+
+.delete-btn {
+  background: #dc2626;
+}
+
+.dashboard-content {
+  max-width: 950px;
+  margin: 42px auto;
+  padding: 0 24px;
+}
+
+.welcome-card,
+.permissions-card {
+  background: white;
+  padding: 28px;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  box-shadow: 0 8px 25px rgba(15, 23, 42, .07);
+}
+
+.welcome-card h1 {
+  margin-top: 0;
+}
+
+.access-message {
+  margin-top: 20px;
+  padding: 14px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.admin-message {
+  background: #eef2ff;
+  color: #4338ca;
+}
+
+.viewer-message {
+  background: #ccfbf1;
+  color: #0f766e;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.action-btn {
+  padding: 11px 17px;
+  border: 1px solid #cbd5e1;
+  background: white;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.status {
+  margin-top: 18px;
+  color: #475569;
+}
+
+.readonly-note {
+  color: #64748b;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 13px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+th {
+  background: #f8fafc;
+}
+
+@media (max-width: 600px) {
+  .login-card {
+    width: 100%;
+  }
+
+  .navbar {
+    padding: 14px 20px;
+  }
+
+  .dashboard-content {
+    margin-top: 25px;
+  }
+}
